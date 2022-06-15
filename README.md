@@ -6,7 +6,7 @@ En este respositorio se encuentran las imágenes y sus correspondientes archivos
 Una vez descargadas ambas carpetas se podran visualizar un total de 4.209 elementos en cada una de ellas (.jpg + .xml). Para ejectuar el modelo es necesario adecuar el directorio de trabajo correspondiente.
 
 
-###Data organization
+Data organization
 Cada imagen tiene un archivo .xml asociado, en el caul cada detección esta reflejada en el archivo con los cuatro vértices (pixel coordenadas). Se encuentra principalmente la siguiente información:
 1. Path indormation
 2. Image size
