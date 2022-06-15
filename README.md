@@ -49,3 +49,4 @@ Ejemplo de su imagen correspondiente:
 
 
 ![](C:\Users\uripr\OneDrive\Documentos\UNI_CiTM\SARTI\RCNN_Kangaroo\kangaroo\IMG-TAG\una\DETECT_UNA.png)
+![img](https://user-images.githubusercontent.com/106528363/173813419-096a8206-3a37-4b7d-980b-3e2265447c9d.png)
