@@ -6,7 +6,7 @@ En este respositorio se encuentran las imágenes y sus correspondientes archivos
 Una vez descargadas ambas carpetas se podran visualizar un total de 4.209 elementos en cada una de ellas (.jpg + .xml). Para ejectuar el modelo es necesario adecuar el directorio de trabajo correspondiente.
 
 
-Data organization
+### Data organization
 Cada imagen tiene un archivo .xml asociado, en el caul cada detección esta reflejada en el archivo con los cuatro vértices (pixel coordenadas). Se encuentra principalmente la siguiente información:
 1. Path indormation
 2. Image size
@@ -50,3 +50,6 @@ Ejemplo de su imagen correspondiente:
 
 ![](C:\Users\uripr\OneDrive\Documentos\UNI_CiTM\SARTI\RCNN_Kangaroo\kangaroo\IMG-TAG\una\DETECT_UNA.png)
 ![img](https://user-images.githubusercontent.com/106528363/173813419-096a8206-3a37-4b7d-980b-3e2265447c9d.png)
+
+
+potser posar en el git de comparació els dos models amb un xml i la seva img...
