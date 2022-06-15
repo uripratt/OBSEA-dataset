@@ -1,13 +1,13 @@
 # OBSEA dataset
 Full dataset OBSEA with images and annotations
 
-En este respositorio se encuentran las imágenes y sus correspondientes archivos .xml utilizados para entrenar i validar los modelos [Model Mask - RCNN](https://github.com/EnocMartinez/obsea-camera-ml-model1) y [Model YOLO2](https://github.com/EnocMartinez/obsea-camera-ml-model2). Para ver una comparación entre el ajuste de los dos modelos se recomienda mirar el resositorio de [Comparation Model Mask-RCNN vs Model Yolo2](https://github.com/EnocMartinez/obsea-camera-ml-comparison/blob/master/README.md). 
+In this repository you can find the full dataset OBSEA with images and their corresponding annotations (.xml files) used to train and validate the [Model Mask - RCNN](https://github.com/EnocMartinez/obsea-camera-ml-model1) and [Model YOLO2](https://github.com/EnocMartinez/obsea-camera-ml-model2) models. To see a comparison between the fit of the two models it is recommended to look at the [Comparison Model Mask-RCNN vs Model Yolo2](https://github.com/EnocMartinez/obsea-camera-ml-comparison/blob/master/README.md) repository. 
 
-Una vez descargadas ambas carpetas se podran visualizar un total de 4.209 elementos en cada una de ellas (.jpg + .xml). Para ejectuar el modelo es necesario adecuar el directorio de trabajo correspondiente.
+Once both folders have been downloaded, a total of 4,209 elements can be viewed in each folder (.jpg + .xml). To run the model it is necessary to adapt the corresponding working directory.
 
 
 ### Data organization
-Cada imagen tiene un archivo .xml asociado, en el caul cada detección esta reflejada en el archivo con los cuatro vértices (pixel coordenadas). Se encuentra principalmente la siguiente información:
+Each image has an associated .xml file, in which each detection is reflected in the file with the four vertices (pixel coordinates). Mainly the following information is found:
 1. Path indormation
 2. Image size
 3. Object name
@@ -15,7 +15,8 @@ Cada imagen tiene un archivo .xml asociado, en el caul cada detección esta refl
 
 
 
-Ejemplo un archivo .xml: 
+Example of an .xml file: 
+
 
 ```xml
 <annotation>
@@ -45,7 +46,8 @@ Ejemplo un archivo .xml:
     </object>
 ```
 
-Ejemplo de su imagen correspondiente:
+
+Example of the corresponding image:
 
 
 ![](C:\Users\uripr\OneDrive\Documentos\UNI_CiTM\SARTI\RCNN_Kangaroo\kangaroo\IMG-TAG\una\DETECT_UNA.png)
