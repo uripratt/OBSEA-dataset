@@ -8,7 +8,7 @@ Once both folders have been downloaded, a total of 4,209 elements can be viewed 
 
 ### Data organization
 Each image has an associated .xml file, in which each detection is reflected in the file with the four vertices (pixel coordinates). Mainly the following information is found:
-1. Path indormation
+1. Path information
 2. Image size
 3. Object name
 4. Detection box
